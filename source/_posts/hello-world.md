@@ -1,6 +1,6 @@
 ---
 title: Ciao!
-top: 2
+sticky: 2
 ---
 
 
