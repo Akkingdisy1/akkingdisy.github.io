@@ -1,38 +1,12 @@
 ---
-title: Hello World
+title: Ciao!
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
 
-### Create a new post
+我是Akkingdisy，这是我用来存放文章的一个小网站。
 
-``` bash
-$ hexo new "My New Post"
-```
+感谢每一个辛苦翻到我这个网站的人啦。可以叫我阿克江或者阿克。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+目前有很多坑，也磕很多cp，目前这个网站只会放写过星铁和ff7两个坑的文。
 
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+会有18+的内容，18+的内容的话我也会打标签，未成年人禁止观看哦。
