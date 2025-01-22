@@ -1,9 +1,9 @@
 ---
-title: Ciao!
+title: Ciao
+date: 2025-01-22 19:38:47
+tags:
 sticky: 1
-date：2025-01-22 19:35:29
 ---
-
 
 我是Akkingdisy，这是我用来存放文章的一个小网站。
 
