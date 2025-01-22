@@ -1,0 +1,51 @@
+name: Build, Test, and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      with:
+        submodules: false
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '22'
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Install Hexo Git Deployer
+      run: |
+        npm install hexo-deployer-git --save
+        npm install hexo-cli -g
+
+    - name: Clean and Generate Static Files
+      run: |
+        hexo clean
+        hexo generate
+
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Deploy to Github Pages
+      env:
+        GH_TOKEN: ${{ secrets.Token }}
+      run: |
+        cd public/
+        git init
+        git add -A
+        git commit -m "Create by workflows"
+        git remote add origin https://${{ secrets.Token }}@github.com/Akkingdisy1/akkingdisy.github.io.git
+        git push origin HEAD:gh-pages -f
+
