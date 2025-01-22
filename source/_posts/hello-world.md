@@ -1,6 +1,5 @@
 ---
 title: Ciao!
-top: ture
 top: 2
 ---
 
